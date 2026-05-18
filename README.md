@@ -22,6 +22,28 @@ This is intentionally not a dump of private reports. I do not publish active fin
 - Auth, access-control, SSRF, artifact-handling, and supply-chain-adjacent classes.
 - Smaller paid open-source issues when the fix is clear, low-noise, and not already saturated.
 
+## Research Threads Touched
+
+This is the public-safe view of the cases I have worked through. Active reports and unresolved details stay private.
+
+| Area | Targets / Programs | Public Status |
+|---|---|---|
+| Paid OSS issue triage | Expensify/App, IssueHunt, Opire, Algora | Evaluated for bounty quality, duplicate noise, and time-to-fix. |
+| AI/ML open-source security | Huntr AI/ML targets including chat, workflow, dashboard, and driver projects | Multiple private reviews and reports; details withheld during disclosure. |
+| Model-file vulnerability research | Joblib, Keras/HDF5, SafeTensors, GGUF, tokenizers | Active research into parser behavior, scanner coverage, and safe-loading assumptions. |
+| Vendor disclosure routing | AWS VDP / HackerOne-style programs | Used when a finding does not fit the primary bounty platform cleanly. |
+| Alternative bounty ecosystems | Code4rena, Immunefi, Google Patch Reward Program, FreeCAD rewards | Evaluated as secondary tracks with different skill and payout profiles. |
+
+## Case Study Queue
+
+I keep full technical notes privately while reports are pending. Once disclosure is allowed, I plan to turn suitable findings into public write-ups covering:
+
+- what the vulnerable trust boundary was;
+- how I reduced duplicate risk;
+- how the finding was validated safely;
+- what remediation pattern fixed or reduced the issue;
+- what I would check earlier next time.
+
 ## How I Work
 
 I start with scope and payout clarity, then check public duplicate noise before spending time on a target. If the idea survives that filter, I build a small threat model, trace source-to-sink paths, and validate with a focused reproduction.
