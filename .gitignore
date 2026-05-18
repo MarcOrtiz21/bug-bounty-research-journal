@@ -1,0 +1,24 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Secrets and local state
+.env
+*.env
+*.key
+*.asc
+*.pem
+state.json
+bot.log
+bot.error.log
+
+# Dependencies and cloned targets
+node_modules/
+repos/
+.tools/
+
+# Private research artifacts
+private/
+reports/
+pocs/
+*.draft.md
