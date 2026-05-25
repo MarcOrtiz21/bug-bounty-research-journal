@@ -14,3 +14,11 @@
 - Validated that some tempting targets had too much duplicate noise or weak impact.
 - Submitted private reports through authorized channels where the evidence was strong enough.
 - Created this public sanitized journal to document process without leaking active findings.
+- Rejected several additional AI/ML and library-level ideas after duplicate-risk and impact review instead of forcing low-quality submissions.
+- Focused model-file work on scanner-versus-loader differentials rather than generic unsafe-loading claims.
+- Expanded the small-bounty radar and kept that contribution lane separate from private vulnerability disclosure work.
+
+## Week of 2026-05-25
+
+- Reviewed pending private notes and refreshed the public journal with sanitized status and methodology updates.
+- Reconfirmed that active findings, report links, reproduction steps, unpublished PoCs, and identifiers stay out of the public repo until disclosure permits more detail.

@@ -45,3 +45,9 @@ A report is not ready until it has:
 We do not inflate CVSS to chase higher payout. A conservative report is easier to defend and less likely to be marked informative.
 
 If triage believes impact is higher, the program can adjust severity.
+
+## 6. Keep Public and Private Notes Separate
+
+Active disclosure work stays in private notes. Public notes stay limited to methodology, high-level status, target families, and lessons that do not enable reproduction.
+
+Until disclosure is allowed, I do not publish private report URLs, bounty identifiers, exploit steps, unpublished PoCs, tokens, or exact vulnerability chains.
