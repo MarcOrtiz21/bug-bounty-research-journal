@@ -51,3 +51,11 @@ If triage believes impact is higher, the program can adjust severity.
 Active disclosure work stays in private notes. Public notes stay limited to methodology, high-level status, target families, and lessons that do not enable reproduction.
 
 Until disclosure is allowed, I do not publish private report URLs, bounty identifiers, exploit steps, unpublished PoCs, tokens, or exact vulnerability chains.
+
+When I test adjacent paid-OSS or service-style workstreams, I keep them operationally separate from private vulnerability research so public notes do not accidentally inherit sensitive context.
+
+## 7. Keep Research Lanes Separate
+
+I keep active vulnerability disclosure, public issue-bounty triage, patch-reward queues, and unrelated paid maintenance/support work in separate operating lanes.
+
+That separation reduces accidental leakage, prevents context-mixing, and makes it easier to decide what can be published safely.

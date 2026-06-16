@@ -33,6 +33,7 @@ This is the public-safe view of the cases I have worked through. Active reports 
 | Model-file vulnerability research | Joblib, Keras/HDF5, SafeTensors, GGUF, tokenizers | Active research into parser behavior, scanner coverage, and safe-loading assumptions. |
 | Vendor disclosure routing | AWS VDP / HackerOne-style programs | Used when a finding does not fit the primary bounty platform cleanly. |
 | Alternative bounty ecosystems | Code4rena, Immunefi, Google Patch Reward Program, FreeCAD rewards | Evaluated as secondary tracks with different skill and payout profiles. |
+| Parallel non-disclosure work | Patch-reward queues, paid OSS radar, scoped maintenance/support work | Kept operationally separate from active vulnerability disclosure to reduce leakage risk. |
 
 ## Case Study Queue
 
@@ -49,6 +50,8 @@ I keep full technical notes privately while reports are pending. Once disclosure
 I start with scope and payout clarity, then check public duplicate noise before spending time on a target. If the idea survives that filter, I build a small threat model, trace source-to-sink paths, and validate with a focused reproduction.
 
 I try to keep severity honest. A clean medium-severity report is better than an inflated high-severity report that collapses during triage.
+
+I also keep unrelated paid work, patch-reward queues, and public issue-bounty scouting in a separate lane so active disclosure context does not bleed into public-facing material.
 
 ## Disclosure Policy
 

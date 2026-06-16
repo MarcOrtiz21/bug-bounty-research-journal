@@ -13,3 +13,4 @@ Public details are intentionally withheld until the relevant platform, maintaine
 - Model-file vulnerability research benefits from pairing runtime behavior with scanner behavior.
 - Some promising targets are worth dropping early once the duplicate noise or impact ceiling becomes obvious.
 - Keeping public issue-bounty triage separate from private disclosure work reduces accidental leakage and context-mixing.
+- Waiting for explicit program approval can be the correct move when a public contribution track is reward-gated or assignment-based.
